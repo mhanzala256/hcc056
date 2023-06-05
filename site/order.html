@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body{
+            background-color: teal;
+        }
+    .nav1{
+        background-color: black;
+        border-radius: 10px;
+    }
+    .nav1 ul{
+        overflow: auto;
+    }
+    .nav1 li{
+        float: left;
+        list-style: none;
+        margin: 13px 20px;
+    }
+    .nav1 li a{
+        padding: 3px 3px;
+        text-decoration: none;
+        color:rgb(230, 221, 221);
+    }
+    .nav1 li a:hover{
+        color: red;
+    }
+    .search{
+        float: right;
+        color: white;
+        padding: 8px 50px;
+    }
+    .nav1 input{
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 3px 17px;
+        width: 150px;}
+        p{
+            color: rgb(243, 240, 235);
+        }
+        td, th {
+            border: 1px solid gray;
+            background-color: rgb(130, 122, 185);
+           } 
+        p{
+            color: black;
+        }
+        .contact{
+            color: beige;
+        }
+      
+        footer{
+            text-align: left;
+        }
+        fieldset{
+            background-color: rgb(135, 73, 76);
+            width: 20%;
+            height: 100%;
+        }
+        .s{
+            border-radius: 10px;
+            margin-left: 12px;
+        }
+        .a{
+            border-radius: 10px;
+        }
+        .block{
+            color: rgba(0, 0, 0, 0.968);
+            font-family: 'Times New Roman', Times, serif;
+        }
+           
+       
+     
+            
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav1">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="price.html">price list</a></li>
+                <li><a href="location.html">location</a></li>
+                <li><a href="order.html">order now</a></li>
+                <li><a href="about.html">Financial statement</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="search">
+                </div>
+              
+            </ul>
+        </nav>
+       </header>
+      
+       
+   <div class="block">
+    <h2 class="abs">Contact Us</h2>
+    <fieldset >
+        <legend>Order now</legend>
+        <label for="name">name</label>
+        <div><input type="text" name="my name" class="a" id="name"></div>  
+        <br>
+        <label for="phone.no">phone.no</label>
+        <div><input type="id" name="my phone.no" class="a" id="phone.no"></div>
+      <br>
+      <label for="email">email</label>
+      <div> <input type="email" name="my email" class="a" id="email" ></div>
+      <br>
+     <label for="address">address</label>
+      <div><input type="text" name="my address" class="a" id="address"></div>
+      <br>
+      <label for="city">city</label>
+      <div><input type="text" name="my city" class="a" id="city"></div>
+      <br>
+      
+      <label for="date">date</label>
+      <div><input type="date" name="my date" class="a" id="date"></div>
+    <br>
+        <div>
+            <label for="bike">bike</label>
+            <select name="my bike" class="a" id="bike">
+                <option value="honda70-20">honda70-20</option>
+                <option value="honda70-15">honda70-15</option>
+                <option value="honda 70-12">honda70-12</option>
+                <option value="honda125-20">honda125-20</option>
+                <option value="honda100- 08">honda100- 08</option>
+                <option value="honda150-19">honda150-19</option></select>
+            </div>
+            <br>
+           <input type="submit" value="Order to " class="s">
+           <input type="reset" value="reset" class="s"></div>
+            
+        
+
+    </fieldset>
+      
+</html>
